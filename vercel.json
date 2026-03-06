@@ -8,8 +8,7 @@
         {
             "src": "./client/package.json",
             "use": "@vercel/static-build",
-            "command": "npm run build",
-            "output": "./client/dist"
+            "config": { "distDir": "dist" }
         }
     ],
     "routes": [
